@@ -6,14 +6,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
-    container: node:16.14.2
 
     steps:
       - uses: actions/checkout@v1
-
-      - name: init aws
-        id: install-aws-cli
-        uses: unfor19/install-aws-cli-action@v1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
 
       - name: yarn install
         run: yarn install
