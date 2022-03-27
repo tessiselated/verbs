@@ -73,7 +73,7 @@ inquirer.prompt(questions).then((answers) => {
     },
   };
   if (answers.furigana) {
-    newVerbDetails.furigana = answers.furigana.split(" ");
+    newVerbDetails.furigana = answers.furigana.split("　");
   }
   const newVerb: Record<string, VerbDetails> = {};
 

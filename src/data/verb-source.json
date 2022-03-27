@@ -95,5 +95,89 @@
       "potential, negative (masen)": ["泣", "けません"]
     },
     "furigana": ["な"]
+  },
+  "to brush one's teeth": {
+    "forms": {
+      "jisho": ["磨", "く"],
+      "masu": ["磨", "きます"],
+      "て": ["磨", "いて"],
+      "short, past": ["磨", "いた"],
+      "short, negative": ["磨", "かない"],
+      "short, past, negative": ["磨", "かなかった"],
+      "potential": ["磨", "ける"],
+      "volitional": ["磨", "こう"],
+      "potential, negative (masen)": ["磨", "けません"]
+    },
+    "furigana": ["みが"]
+  },
+  "to be moved/touched (by)": {
+    "forms": {
+      "jisho": ["感", "動", "する"],
+      "masu": ["感", "動", "します"],
+      "て": ["感", "動", "して"],
+      "short, past": ["感", "動", "した"],
+      "short, negative": ["感", "動", "しない"],
+      "short, past, negative": ["感", "動", "しなかった"],
+      "potential": ["感", "動", "できる"],
+      "volitional": ["感", "動", "しよう"],
+      "potential, negative (masen)": ["感", "動", "できません"]
+    },
+    "furigana": ["かん", "どう"]
+  },
+  "to send": {
+    "forms": {
+      "jisho": ["送", "る"],
+      "masu": ["送", "ります"],
+      "て": ["送", "って"],
+      "short, past": ["送", "った"],
+      "short, negative": ["送", "らない"],
+      "short, past, negative": ["送", "らなかった"],
+      "potential": ["送", "れる"],
+      "volitional": ["送", "ろう"],
+      "potential, negative (masen)": ["送", "れません"]
+    },
+    "furigana": ["おく"]
+  },
+  "to look good (on somebody)": {
+    "forms": {
+      "jisho": ["似合", "う"],
+      "masu": ["似合", "います"],
+      "て": ["似合", "って"],
+      "short, past": ["似合", "った"],
+      "short, negative": ["似合", "わない"],
+      "short, past, negative": ["似合", "わなかった"],
+      "potential": ["似合", "える"],
+      "volitional": ["似合", "おう"],
+      "potential, negative (masen)": ["似合", "えません"]
+    },
+    "furigana": ["にあ"]
+  },
+  "to give up": {
+    "forms": {
+      "jisho": ["諦", "める"],
+      "masu": ["諦", "めます"],
+      "て": ["諦", "めて"],
+      "short, past": ["諦", "めた"],
+      "short, negative": ["諦", "めない"],
+      "short, past, negative": ["諦", "めなかった"],
+      "potential": ["諦", "められる"],
+      "volitional": ["諦", "めよう"],
+      "potential, negative (masen)": ["諦", "められません"]
+    },
+    "furigana": ["あきら"]
+  },
+  "to forget": {
+    "forms": {
+      "jisho": ["忘", "れる"],
+      "masu": ["忘", "れます"],
+      "て": ["忘", "れて"],
+      "short, past": ["忘", "れた"],
+      "short, negative": ["忘", "れない"],
+      "short, past, negative": ["忘", "れなかった"],
+      "potential": ["忘", "れられる"],
+      "volitional": ["忘", "れよう"],
+      "potential, negative (masen)": ["忘", "れられません"]
+    },
+    "furigana": ["わす"]
   }
 }
