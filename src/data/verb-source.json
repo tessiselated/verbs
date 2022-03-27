@@ -53,5 +53,48 @@
       "potential, negative (masen)": ["読", "めません"]
     },
     "furigana": ["よ"]
+  },
+  "to knit": {
+    "forms": {
+      "jisho": ["編", "む"],
+      "masu": ["編", "みます"],
+      "て": ["編", "んで"],
+      "short, past": ["編", "んだ"],
+      "short, negative": ["編", "まない"],
+      "short, past, negative": ["編", "まなかった"],
+      "potential": ["編", "める"],
+      "volitional": ["編", "もう"],
+      "potential, negative (masen)": ["編", "めません"]
+    },
+    "furigana": ["あ"]
+  },
+  "to lend; to rent": {
+    "forms": {
+      "jisho": ["貸", "す"],
+      "masu": ["貸", "します"],
+      "て": ["貸", "して"],
+      "short, past": ["貸", "した"],
+      "short, negative": ["貸", "さない"],
+      "short, past, negative": ["貸", "さなかった"],
+      "potential": ["貸", "せる"],
+      "volitional": ["貸", "そう"],
+      "potential, negative (masen)": ["貸", "せません"]
+    },
+    "furigana": ["か"]
+  },
+  "to cry": {
+    "forms": {
+      "jisho": ["泣", "く"],
+      "masu": ["泣", "きます"],
+      "て": ["泣", "いて"],
+      "short, past": ["泣", "いた"],
+      "short, negative": ["泣", "かない"],
+      "short, past, negative": ["泣", "かなかった"],
+      "potential": ["泣", "ける"],
+      "volitional": ["泣", "こう"],
+      "potential, negative (masen)": ["泣", "けません"]
+    },
+    "furigana": ["な"]
   }
+}
 }

@@ -11,15 +11,15 @@ const forms = [
   "short, negative",
   "short, past, negative",
   "potential",
-  "volitional",
   "potential, negative (masen)",
+  "volitional",
 ];
 
 const formQuestions = forms.map((form) => {
   return {
     type: "input",
     name: form,
-    message: `Please enter ${form} form separated by a space`,
+    message: `Please enter kana portion of ${form}`,
   };
 });
 
@@ -31,6 +31,11 @@ const otherQuestions = [
     validate(value: string) {
       return value !== "" ? true : "Please type in the english meaning";
     },
+  },
+  {
+    type: "input",
+    name: "kanji",
+    message: "Please enter the kanji component separated by a space",
   },
   {
     type: "input",
@@ -46,18 +51,25 @@ const questions: inquirer.QuestionCollection = [
 
 inquirer.prompt(questions).then((answers) => {
   const newVerbKey: string = answers.english;
+  const kanjiComponent: string[] =
+    answers.kanji !== "" ? answers.kanji.split("　") : [];
   const newVerbDetails: VerbDetails = {
     forms: {
-      jisho: answers.jisho.split("　"),
-      masu: answers.masu.split("　"),
-      て: answers["て"].split("　"),
-      "short, past": answers["short, past"].split("　"),
-      "short, negative": answers["short, negative"].split("　"),
-      "short, past, negative": answers["short, past, negative"].split("　"),
-      potential: answers.potential.split("　"),
-      volitional: answers.volitional.split("　"),
-      "potential, negative (masen)":
-        answers["potential, negative (masen)"].split("　"),
+      jisho: [...kanjiComponent, answers.jisho],
+      masu: [...kanjiComponent, answers.masu],
+      て: [...kanjiComponent, answers["て"]],
+      "short, past": [...kanjiComponent, answers["short, past"]],
+      "short, negative": [...kanjiComponent, answers["short, negative"]],
+      "short, past, negative": [
+        ...kanjiComponent,
+        answers["short, past, negative"],
+      ],
+      potential: [...kanjiComponent, answers.potential],
+      volitional: [...kanjiComponent, answers.volitional],
+      "potential, negative (masen)": [
+        ...kanjiComponent,
+        answers["potential, negative (masen)"],
+      ],
     },
   };
   if (answers.furigana) {
