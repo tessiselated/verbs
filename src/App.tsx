@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Card } from "primereact/card";
 
 import "primereact/resources/themes/lara-dark-indigo/theme.css";
 import "primereact/resources/primereact.min.css";

@@ -10,7 +10,7 @@
       "short, past, negative": ["食", "べなかった"],
       "potential": ["食", "べられる"],
       "volitional": ["食", "べよう"],
-      "volitional, negative (masen)": ["食", "べられません"]
+      "potential, negative (masen)": ["食", "べられません"]
     }
   },
   "to look": {
@@ -24,7 +24,7 @@
       "short, past, negative": ["見", "なかった"],
       "potential": ["見", "られる"],
       "volitional": ["見", "よう"],
-      "volitional, negative (masen)": ["見", "られません"]
+      "potential, negative (masen)": ["見", "られません"]
     }
   },
   "to do": {
@@ -37,7 +37,21 @@
       "short, past, negative": ["しなかった"],
       "potential": ["できる"],
       "volitional": ["しよう"],
-      "volitional, negative (masen)": ["できません"]
+      "potential, negative (masen)": ["できません"]
     }
+  },
+  "to drink": {
+    "forms": {
+      "jisho": ["読", "む"],
+      "masu": ["読", "みます"],
+      "て": ["読", "んで"],
+      "short, past": ["読", "んだ"],
+      "short, negative": ["読", "まない"],
+      "short, past, negative": ["読", "まなかった"],
+      "potential": ["読", "める"],
+      "volitional": ["読", "もう"],
+      "potential, negative (masen)": ["読", "めません"]
+    },
+    "furigana": ["よ"]
   }
 }

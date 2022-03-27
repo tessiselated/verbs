@@ -19,7 +19,7 @@ export interface VerbSelection {
   verbDetails: VerbDetails;
 }
 
-interface VerbDetails {
+export interface VerbDetails {
   furigana?: string[];
   forms: {
     jisho: string[];
@@ -30,6 +30,6 @@ interface VerbDetails {
     "short, past, negative": string[];
     potential: string[];
     volitional: string[];
-    "volitional, negative (masen)": string[];
+    "potential, negative (masen)": string[];
   };
 }
