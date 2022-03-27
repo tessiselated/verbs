@@ -1,0 +1,21 @@
+name: Deploy verb app
+
+on: workflow_dispatch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    container: node:16.14.2
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: init
+        run: npm install yarn
+
+      - name: yarn install
+        run: yarn install
+
+      - name: yarn build
+        run: yarn build
