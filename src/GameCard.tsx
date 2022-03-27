@@ -23,7 +23,7 @@ export function GameCard({
   const { english, form, verbDetails } = verbSelection;
 
   return (
-    <Card style={{ marginTop: "-3em" }}>
+    <Card>
       <p>
         Enter <strong>{form}</strong> form for <strong>{english}</strong>:
       </p>

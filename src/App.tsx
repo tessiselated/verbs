@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Card title="Tessa's Verb Conjugation" />
+        <h1 className="app-heading">Tessa&#39;s Verb Conjugation</h1>
         <GameCard
           verbSelection={verbSelection}
           correct={correct}
