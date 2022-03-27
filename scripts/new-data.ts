@@ -57,7 +57,7 @@ inquirer.prompt(questions).then((answers) => {
       potential: answers.potential.split("　"),
       volitional: answers.volitional.split("　"),
       "potential, negative (masen)":
-        answers["volitional, negative (masen)"].split("　"),
+        answers["potential, negative (masen)"].split("　"),
     },
   };
   if (answers.furigana) {
