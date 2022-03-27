@@ -18,5 +18,14 @@
       "short, past": ["見", "た"],
       "short, negative": ["見", "ない"]
     }
+  },
+  "to do": {
+    "forms": {
+      "jisho": ["する"],
+      "masu": ["し", "ます"],
+      "て": ["し", "て"],
+      "short, past": ["し", "た"],
+      "short, negative": ["し", "ない"]
+    }
   }
 }
