@@ -11,8 +11,14 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - name: init
-        run: npm install yarn
+      - name: init yarn
+        run: npm install yarn -g
+
+      - name: init aws
+        id: install-aws-cli
+        uses: unfor19/install-aws-cli-action@v1
+        with:
+          arch: amd64
 
       - name: yarn install
         run: yarn install
