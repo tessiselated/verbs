@@ -1,0 +1,22 @@
+{
+  "to eat": {
+    "furigana": ["た"],
+    "forms": {
+      "jisho": ["食", "べる"],
+      "masu": ["食", "べます"],
+      "て": ["食", "べて"],
+      "short, past": ["食", "べた"],
+      "short, negative": ["食", "べない"]
+    }
+  },
+  "to look": {
+    "furigana": ["み"],
+    "forms": {
+      "jisho": ["見", "る"],
+      "masu": ["見", "ます"],
+      "て": ["見", "て"],
+      "short, past": ["見", "た"],
+      "short, negative": ["見", "ない"]
+    }
+  }
+}
