@@ -42,6 +42,20 @@
   },
   "to drink": {
     "forms": {
+      "jisho": ["飲", "む"],
+      "masu": ["飲", "みます"],
+      "て": ["飲", "んで"],
+      "short, past": ["飲", "んだ"],
+      "short, negative": ["飲", "まない"],
+      "short, past, negative": ["飲", "まなかった"],
+      "potential": ["飲", "める"],
+      "volitional": ["飲", "もう"],
+      "potential, negative (masen)": ["飲", "めません"]
+    },
+    "furigana": ["よ"]
+  },
+  "to read": {
+    "forms": {
       "jisho": ["読", "む"],
       "masu": ["読", "みます"],
       "て": ["読", "んで"],
