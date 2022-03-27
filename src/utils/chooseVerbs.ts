@@ -27,5 +27,9 @@ interface VerbDetails {
     て: string[];
     "short, past": string[];
     "short, negative": string[];
+    "short, past, negative": string[];
+    potential: string[];
+    volitional: string[];
+    "volitional, negative (masen)": string[];
   };
 }

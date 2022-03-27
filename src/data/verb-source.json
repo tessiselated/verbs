@@ -6,7 +6,11 @@
       "masu": ["食", "べます"],
       "て": ["食", "べて"],
       "short, past": ["食", "べた"],
-      "short, negative": ["食", "べない"]
+      "short, negative": ["食", "べない"],
+      "short, past, negative": ["食", "べなかった"],
+      "potential": ["食", "べられる"],
+      "volitional": ["食", "べよう"],
+      "volitional, negative (masen)": ["食", "べられません"]
     }
   },
   "to look": {
@@ -16,16 +20,24 @@
       "masu": ["見", "ます"],
       "て": ["見", "て"],
       "short, past": ["見", "た"],
-      "short, negative": ["見", "ない"]
+      "short, negative": ["見", "ない"],
+      "short, past, negative": ["見", "なかった"],
+      "potential": ["見", "られる"],
+      "volitional": ["見", "よう"],
+      "volitional, negative (masen)": ["見", "られません"]
     }
   },
   "to do": {
     "forms": {
       "jisho": ["する"],
-      "masu": ["し", "ます"],
-      "て": ["し", "て"],
-      "short, past": ["し", "た"],
-      "short, negative": ["し", "ない"]
+      "masu": ["します"],
+      "て": ["して"],
+      "short, past": ["した"],
+      "short, negative": ["しない"],
+      "short, past, negative": ["しなかった"],
+      "potential": ["できる"],
+      "volitional": ["しよう"],
+      "volitional, negative (masen)": ["できません"]
     }
   }
 }
