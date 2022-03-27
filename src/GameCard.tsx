@@ -23,16 +23,17 @@ export function GameCard({
   const { english, form, verbDetails } = verbSelection;
 
   return (
-    <Card>
+    <Card style={{ marginTop: "-3em" }}>
       <p>
-        Enter {form} form for {english}:
+        Enter <strong>{form}</strong> form for <strong>{english}</strong>:
       </p>
-      <InputText
-        value={answer}
-        style={{ textAlign: "center" }}
-        onChange={(e) => setAnswer(e.target.value)}
-      />
-      <br />
+      <div className="answer-box-container">
+        <InputText
+          value={answer}
+          style={{ textAlign: "center" }}
+          onChange={(e) => setAnswer(e.target.value)}
+        />
+      </div>
       {correct === undefined && (
         <Button
           label="Check!"

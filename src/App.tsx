@@ -7,7 +7,6 @@ import "primeicons/primeicons.css";
 import "primeflex/primeflex.css";
 import { GameCard } from "./GameCard";
 import { chooseVerbs } from "./utils/chooseVerbs";
-// import "./App.css";
 
 function App() {
   const [verbSelection, setVerbSelection] = useState(chooseVerbs());
@@ -21,15 +20,17 @@ function App() {
   };
   return (
     <div className="App">
-      <Card title="Tessa's Verb Conjugation" />
-      <GameCard
-        verbSelection={verbSelection}
-        correct={correct}
-        setCorrect={setCorrect}
-        answer={answer}
-        setAnswer={setAnswer}
-        newRound={newRound}
-      />
+      <div>
+        <Card title="Tessa's Verb Conjugation" />
+        <GameCard
+          verbSelection={verbSelection}
+          correct={correct}
+          setCorrect={setCorrect}
+          answer={answer}
+          setAnswer={setAnswer}
+          newRound={newRound}
+        />
+      </div>
     </div>
   );
 }
