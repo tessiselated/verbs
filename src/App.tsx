@@ -10,8 +10,15 @@ import { chooseVerbs } from "./utils/chooseVerbs";
 // import "./App.css";
 
 function App() {
-  const [verbSelection, _setVerbSelection] = useState(chooseVerbs());
+  const [verbSelection, setVerbSelection] = useState(chooseVerbs());
   const [correct, setCorrect] = useState<boolean | undefined>(undefined);
+  const [answer, setAnswer] = useState("");
+
+  const newRound = (): void => {
+    setVerbSelection(chooseVerbs());
+    setCorrect(undefined);
+    setAnswer("");
+  };
   return (
     <div className="App">
       <Card title="Tessa's Verb Conjugation" />
@@ -19,6 +26,9 @@ function App() {
         verbSelection={verbSelection}
         correct={correct}
         setCorrect={setCorrect}
+        answer={answer}
+        setAnswer={setAnswer}
+        newRound={newRound}
       />
     </div>
   );

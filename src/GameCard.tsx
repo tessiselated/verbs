@@ -9,13 +9,17 @@ export function GameCard({
   verbSelection,
   correct,
   setCorrect,
+  answer,
+  setAnswer,
+  newRound,
 }: {
   verbSelection: VerbSelection;
   correct: boolean | undefined;
   setCorrect: Dispatch<SetStateAction<boolean | undefined>>;
+  answer: string;
+  setAnswer: Dispatch<SetStateAction<string>>;
+  newRound: () => void;
 }) {
-  const [answer, setAnswer] = useState("");
-
   const { english, form, verbDetails } = verbSelection;
 
   return (
@@ -29,11 +33,22 @@ export function GameCard({
         onChange={(e) => setAnswer(e.target.value)}
       />
       <br />
-      <Button
-        label="Check!"
-        className="p-button-outlined"
-        onClick={() => setCorrect(answer === verbDetails.forms[form].join(""))}
-      />
+      {correct === undefined && (
+        <Button
+          label="Check!"
+          className="p-button-outlined"
+          onClick={() =>
+            setCorrect(answer === verbDetails.forms[form].join(""))
+          }
+        />
+      )}
+      {correct !== undefined && (
+        <Button
+          label=" Next!"
+          className="p-button-outlined p-button-secondary"
+          onClick={newRound}
+        />
+      )}
       {correct === true && (
         <p className="success-text">
           <ruby>
