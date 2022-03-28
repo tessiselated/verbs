@@ -52,7 +52,7 @@
       "volitional": ["飲", "もう"],
       "potential, negative (masen)": ["飲", "めません"]
     },
-    "furigana": ["よ"]
+    "furigana": ["の"]
   },
   "to read": {
     "forms": {
@@ -193,5 +193,45 @@
       "potential, negative (masen)": ["忘", "れられません"]
     },
     "furigana": ["わす"]
+  },
+  "to give (to others)": {
+    "forms": {
+      "jisho": ["あげる"],
+      "masu": ["あげます"],
+      "て": ["あげて"],
+      "short, past": ["あげた"],
+      "short, negative": ["あげない"],
+      "short, past, negative": ["あげなかった"],
+      "potential": ["あげられる"],
+      "volitional": ["あげよう"],
+      "potential, negative (masen)": ["あげられません"]
+    }
+  },
+  "to give (me)": {
+    "forms": {
+      "jisho": ["くれる"],
+      "masu": ["くれます"],
+      "て": ["くれて"],
+      "short, past": ["くれた"],
+      "short, negative": ["くれない"],
+      "short, past, negative": ["くれなかった"],
+      "potential": ["くれられる"],
+      "volitional": ["くれよう"],
+      "potential, negative (masen)": ["くれられません"]
+    }
+  },
+  "to receive": {
+    "forms": {
+      "jisho": ["貰", "う"],
+      "masu": ["貰", "います"],
+      "て": ["貰", "って"],
+      "short, past": ["貰", "った"],
+      "short, negative": ["貰", "わない"],
+      "short, past, negative": ["貰", "わなかった"],
+      "potential": ["貰", "える"],
+      "volitional": ["貰", "おう"],
+      "potential, negative (masen)": ["貰", "えません"]
+    },
+    "furigana": ["もら"]
   }
 }
