@@ -261,5 +261,89 @@
       "potential, negative (masen)": ["奢", "れません"]
     },
     "furigana": ["おご"]
+  },
+  "to have difficulty": {
+    "forms": {
+      "jisho": ["困", "る"],
+      "masu": ["困", "ります"],
+      "て": ["困", "って"],
+      "short, past": ["困", "った"],
+      "short, negative": ["困", "らない"],
+      "short, past, negative": ["困", "らなかった"],
+      "potential": ["困", "れる"],
+      "volitional": ["困", "ろう"],
+      "potential, negative (masen)": ["困", "れません"]
+    },
+    "furigana": ["こま"]
+  },
+  "to take (something) out, to hand (something) in": {
+    "forms": {
+      "jisho": ["出", "す"],
+      "masu": ["出", "します"],
+      "て": ["出", "して"],
+      "short, past": ["出", "した"],
+      "short, negative": ["出", "さない"],
+      "short, past, negative": ["出", "さなかった"],
+      "potential": ["出", "せる"],
+      "volitional": ["出", "そう"],
+      "potential, negative (masen)": ["出", "せません"]
+    },
+    "furigana": ["だ"]
+  },
+  "to get depressed": {
+    "forms": {
+      "jisho": ["落", "ち", "込", "む"],
+      "masu": ["落", "ち", "込", "みます"],
+      "て": ["落", "ち", "込", "んで"],
+      "short, past": ["落", "ち", "込", "んだ"],
+      "short, negative": ["落", "ち", "込", "まない"],
+      "short, past, negative": ["落", "ち", "込", "まなかった"],
+      "potential": ["落", "ち", "込", "める"],
+      "volitional": ["落", "ち", "込", "もう"],
+      "potential, negative (masen)": ["落", "ち", "込", "めません"]
+    },
+    "furigana": ["お", " ", "こ"]
+  },
+  "to take someone to a place": {
+    "forms": {
+      "jisho": ["連", "れて", "行", "く"],
+      "masu": ["連", "れて", "行", "きます"],
+      "て": ["連", "れて", "行", "って"],
+      "short, past": ["連", "れて", "行", "った"],
+      "short, negative": ["連", "れて", "行", "かない"],
+      "short, past, negative": ["連", "れて", "行", "かなかった"],
+      "potential": ["連", "れて", "行", "ける"],
+      "volitional": ["連", "れて", "行", "こう"],
+      "potential, negative (masen)": ["連", "れて", "行", "けません"]
+    },
+    "furigana": ["つ", " ", "い"]
+  },
+  "to go to pick up": {
+    "forms": {
+      "jisho": ["迎", "えに", "行", "く"],
+      "masu": ["迎", "えに", "行", "きます"],
+      "て": ["迎", "えに", "行", "って"],
+      "short, past": ["迎", "えに", "行", "った"],
+      "short, negative": ["迎", "えに", "行", "かない"],
+      "short, past, negative": ["迎", "えに", "行", "かなかった"],
+      "potential": ["迎", "えに", "行", "ける"],
+      "volitional": ["迎", "えに", "行", "こう"],
+      "potential, negative (masen)": ["迎", "えに", "行", "けません"]
+    },
+    "furigana": ["むか", " ", "い"]
+  },
+  "to correct, fix, heal": {
+    "forms": {
+      "jisho": ["直", "す"],
+      "masu": ["直", "します"],
+      "て": ["直", "して"],
+      "short, past": ["直", "した"],
+      "short, negative": ["直", "さない"],
+      "short, past, negative": ["直", "さなかった"],
+      "potential": ["直", "せる"],
+      "volitional": ["直", "そう"],
+      "potential, negative (masen)": ["直", "せません"]
+    },
+    "furigana": ["なお"]
   }
 }
