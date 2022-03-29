@@ -233,5 +233,33 @@
       "potential, negative (masen)": ["貰", "えません"]
     },
     "furigana": ["もら"]
+  },
+  "to wake (someone) up": {
+    "forms": {
+      "jisho": ["起", "こす"],
+      "masu": ["起", "こします"],
+      "て": ["起", "こして"],
+      "short, past": ["起", "こした"],
+      "short, negative": ["起", "こさない"],
+      "short, past, negative": ["起", "こさなかった"],
+      "potential": ["起", "こせる"],
+      "volitional": ["起", "こそう"],
+      "potential, negative (masen)": ["起", "こせません"]
+    },
+    "furigana": ["お"]
+  },
+  "to treat someone (to a meal, drink etc)": {
+    "forms": {
+      "jisho": ["奢", "る"],
+      "masu": ["奢", "ります"],
+      "て": ["奢", "って"],
+      "short, past": ["奢", "った"],
+      "short, negative": ["奢", "らない"],
+      "short, past, negative": ["奢", "らなかった"],
+      "potential": ["奢", "れる"],
+      "volitional": ["奢", "ろう"],
+      "potential, negative (masen)": ["奢", "れません"]
+    },
+    "furigana": ["おご"]
   }
 }
