@@ -345,5 +345,47 @@
       "potential, negative (masen)": ["直", "せません"]
     },
     "furigana": ["なお"]
+  },
+  "to show": {
+    "forms": {
+      "jisho": ["見", "せる"],
+      "masu": ["見", "せます"],
+      "て": ["見", "せて"],
+      "short, past": ["見", "せた"],
+      "short, negative": ["見", "せない"],
+      "short, past, negative": ["見", "せなかった"],
+      "potential": ["見", "せられる"],
+      "volitional": ["見", "せよう"],
+      "potential, negative (masen)": ["見", "せられません"]
+    },
+    "furigana": ["み"]
+  },
+  "to collect": {
+    "forms": {
+      "jisho": ["集", "める"],
+      "masu": ["集", "めます"],
+      "て": ["集", "めて"],
+      "short, past": ["集", "めた"],
+      "short, negative": ["集", "めない"],
+      "short, past, negative": ["集", "めなかった"],
+      "potential": ["集", "められる"],
+      "volitional": ["集", "めよう"],
+      "potential, negative (masen)": ["集", "められません"]
+    },
+    "furigana": ["あつ"]
+  },
+  "to translate": {
+    "forms": {
+      "jisho": ["訳", "す"],
+      "masu": ["訳", "します"],
+      "て": ["訳", "して"],
+      "short, past": ["訳", "した"],
+      "short, negative": ["訳", "さない"],
+      "short, past, negative": ["訳", "さなかった"],
+      "potential": ["訳", "せる"],
+      "volitional": ["訳", "そう"],
+      "potential, negative (masen)": ["訳", "せません"]
+    },
+    "furigana": ["やく"]
   }
 }
