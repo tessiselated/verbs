@@ -49,7 +49,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-prettier": "4.0.0",
-    "inquirer": "8.2.2",
+    "inquirer": "8.2.4",
     "prettier": "2.6.1"
   }
 }
